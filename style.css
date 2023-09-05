@@ -1,5 +1,6 @@
 *{
-font-family: 'Times New Roman', Times, serif;}
+font-family: 'Times New Roman', Times, serif;
+}
 ul {
     list-style: none;
     padding: 0;
@@ -169,8 +170,6 @@ padding: 0.3em;
         position: static;
         display: none;
     }
-}
-@media screen and (max-width: 768px) {
     .card-wrapper {
         grid-template-columns: auto; 
     }
