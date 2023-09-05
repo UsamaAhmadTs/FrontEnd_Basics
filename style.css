@@ -58,15 +58,15 @@ ul {
     display: block;
 }
 .navbar a:hover {
-    background-color: #944848; 
+    background-color: #944848; /* Change the background color on hover */
     border-radius: 20px;
-    color: white; 
+    color: white; /* Change the text color on hover */
     transition: background-color 0.3s, color 0.3s;
 }
 
 .dropdown-content a:hover {
-    background-color: #fff; 
-    color: #41221d; 
+    background-color: #fff; /* Change the background color of dropdown items on hover */
+    color: #41221d;  /* Change the text color of dropdown items on hover */
     transition: background-color 0.3s, color 0.3s; 
 }
 
@@ -136,7 +136,7 @@ ul {
 .form-message textarea{
     background: transparent;
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;/* Add a bottom border to the input fields */
     padding-top: 3em;
     outline: none;
     color: #e4c9c9;
@@ -177,7 +177,7 @@ padding: 0.3em;
         display: none;
     }
     .card-wrapper {
-        grid-template-columns: auto; 
+        grid-template-columns: auto; /* Change to a single column layout */
     }
 
     .card {
@@ -187,7 +187,7 @@ padding: 0.3em;
 
 @media screen and (max-width: 480px) {
     .container-text {
-        font-size: 1rem; 
+        font-size: 1rem; /* Adjust text size for smaller screens */
     }
 
     .form-group input,
