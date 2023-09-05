@@ -1,3 +1,9 @@
+/* Define color variables */
+:root {
+    --primary-color: #582525;
+    --secondary-color: white;
+}
+
 *{
 font-family: 'Times New Roman', Times, serif;
 }
@@ -8,7 +14,7 @@ ul {
 }
 
 .navbar {
-    background-color: #582525;
+    background-color: var(--primary-color);
     color: white;
     position: fixed;
   top: 0;
@@ -73,7 +79,7 @@ ul {
     box-sizing: border-box;
     width: auto;
     padding: 4em;
-   background-color: #582525;
+   background-color: var(--primary-color);
 }
 .card-wrapper{
     padding: 2.5em;
